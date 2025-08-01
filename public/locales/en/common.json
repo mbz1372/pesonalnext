@@ -1,0 +1,34 @@
+{
+  "home": {
+    "greeting": "Hello, I'm Mohammad Bagher Zolfaghari",
+    "titles": "Product Manager · Backend Engineer",
+    "download_cv": "Download Resume",
+    "view_projects": "View Projects",
+    "contact": "Contact"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "This is a placeholder biography from LinkedIn.",
+    "skills": "Skills"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+}
