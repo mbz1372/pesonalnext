@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 font-sans;
+}
+
+html[dir='rtl'] {
+  font-family: var(--font-fa), sans-serif;
+}
+
+html[dir='ltr'] {
+  font-family: var(--font-en), sans-serif;
+}
