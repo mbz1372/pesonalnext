@@ -1,20 +1,16 @@
 import type { Config } from 'tailwindcss'
-
 const config: Config = {
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}'
+    './app/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './content/**/*.{md,mdx}',
   ],
-  darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['var(--font-en)', 'sans-serif'],
-        vazir: ['var(--font-fa)', 'sans-serif']
-      }
-    }
+      borderRadius: { '2xl': '1rem' },
+    },
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')]
+  darkMode: 'class',
+  plugins: [require('@tailwindcss/typography')],
 }
-
-export default config
+export default config;
